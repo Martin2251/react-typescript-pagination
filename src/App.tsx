@@ -4,7 +4,7 @@ import './App.css';
 
 export default function App() {
   const [currentPage, setCurrentPage] = useState(1);
-  const lastPage = 3;
+  const lastPage = 50;
 
   return (
     <div className="container">
